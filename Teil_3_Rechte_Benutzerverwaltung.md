@@ -14,8 +14,8 @@ Drei Arten von Leuten sind wichtig:
 ### 1.2 Was bedeuten die Zeichen?
 Wenn du `ls -al` eingibst, siehst du so komische Zeichen wie `-rwxr-xr--`. Das bedeutet:
 
-* Das **erste Zeichen** (`-` oder `d`): Sagt, ob's eine normale Datei (`-`) oder ein Ordner (`d`) ist.
-* Danach kommen **drei Dreiergruppen** (`rwx`, `r-x`, `r--`):
+* chmod "Zeichen"
+  
     * **`r` (Read)**: Lesen (bei Ordnern: reinschauen).
     * **`w` (Write)**: Schreiben/Ändern (bei Ordnern: was reinlegen/rausnehmen).
     * **`x` (eXecute)**: Ausführen (bei Ordnern: reingehen).
